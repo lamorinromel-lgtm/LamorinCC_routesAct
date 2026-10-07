@@ -20,9 +20,9 @@ class HomePage extends StatelessWidget {
             const SizedBox(height: 25),
             ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, '/detail');
+                Navigator.pushNamed(context, '/sample');
               },
-              child: const Text('View Details'),
+              child: const Text('View API Data'),
             ),
           ],
         ),
